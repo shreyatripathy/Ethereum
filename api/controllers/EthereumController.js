@@ -72,6 +72,7 @@ signTxn_transfer = (toAddr, fromAddr, value, key, cb) => {
           to: web3.utils.toHex(toAddr),
           value: web3.utils.toHex(data)
         }
+
         // let rawTx = {
         //   nonce: web3.utils.toHex(hardCount),
         //   from: web3.utils.toHex(fromAddr),
@@ -80,6 +81,7 @@ signTxn_transfer = (toAddr, fromAddr, value, key, cb) => {
         //   to: web3.utils.toHex(toAddr),
         //   value: web3.utils.toHex(value)
         // }
+        
         var tx = new Tx(rawTx);
         tx.sign(key);
         let serializedTx = tx.serialize();

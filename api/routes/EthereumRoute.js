@@ -22,4 +22,5 @@ module.exports = function(app) {
     app.route('/eth/getDetails')
     .get(ethereum.get_details)
   
+    
 };
