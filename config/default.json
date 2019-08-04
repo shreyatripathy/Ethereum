@@ -1,0 +1,19 @@
+{
+    "BMCT": {
+      "testnet": {
+        "username": "user",
+        "password": "password",
+        "network": "testnet",
+        "port": 7969,
+        "host":"172.16.21.13"
+      },
+      "mainnet": {
+        "username": "user",
+        "password": "password",
+        "network": "mainnet",
+        "port": 7969
+      }
+    }
+    
+  
+}
